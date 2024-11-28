@@ -15,20 +15,17 @@ import ProyectDetail from '../Views/Project-detail';
 import TermsAndConditions from '../Views/Terms-conditions';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import '../Scripts/Core';
+import '../Utils/Core';
 
 function CoreScriptExecutor() {
   const location = useLocation();
-
   useEffect(() => {
-    
     if (typeof window.Webflow !== 'undefined') {
       window.Webflow.destroy(); 
       window.Webflow.ready(); 
       window.Webflow.require('ix2').init(); 
     }
   }, [location.pathname]); 
-
   return null;
 }
 

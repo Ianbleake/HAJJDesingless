@@ -8,9 +8,12 @@ import altaire from '../Assets/altaire.jpg'
 import gamboa from '../Assets/work_slide_4.jpg'
 import broome from '../Assets/broome.jpg'
 import curate from "../Assets/curate_your_project_short.jpg"
+import mosaico from '../Assets/test_mosaico.jpg'
+import mosaico2 from '../Assets/test_mosaico_2.jpg'
 import TextAndBanner from "../Components/TextAndBanner"
 import TextAndSlider from "../Components/TextAndSlider"
 import BannerTextBtn from "../Components/BannerTextBtn"
+import Banner from "../Components/Banner"
 
 const Home = () => {
 
@@ -97,6 +100,22 @@ const Home = () => {
         "url": '/our-team',
         "button": 'Get to know us',
         "image": null
+      },
+      "banner": {
+        "title": 'OUR SHOWROOM',
+        "description": 'Find inspiration and references to build the space you want.',
+        "button": 'Get to know us',
+        "url": '/our-showroom',
+        "images": [
+          {
+            "image": mosaico,
+            "alt": ''
+          },
+          {
+            "image": mosaico2,
+            "alt": ''
+          }
+        ]
       }
   }
   
@@ -109,6 +128,7 @@ const Home = () => {
       <TextAndBanner element={data.textandbanner[0]} />
       <TextAndSlider data={data.textandslider} />
       <BannerTextBtn data={data.bannertextbtn} />
+      <Banner data={data.banner} />
       <TextAndBanner element={data.textandbanner[1]} /> 
     </section>
   )
