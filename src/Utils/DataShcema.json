@@ -101,7 +101,26 @@
         ]
       },
       "grid": {
-        "title": ""
+        "title": "FEATURED<br>‍<span class='bigtitle'>MEDIA</span>",
+        "description": "Discover design tendencies, events and the presence of HAJJ on the media.",
+        "button": "Read more",
+        "url": "/feature-media",
+        "cards": [
+          {
+            "url": "/feature-media",
+            "title": "HOTBOOK - HAJJ Designless A lasting legacy.",
+            "date": "September / 2023",
+            "document": "https://hajj.kubocloud.com/documents/HOTBOOK050%20HOTDesign%20Hajj%20Designless.pdf",
+            "button": "Read more"
+          },
+          {
+            "url": "/feature-media",
+            "title": "Aliquam et dignissim nisi, et dapibus sapien.",
+            "date": "July / 2024",
+            "document": "/news",
+            "button": "Read more"
+          }
+        ]
       }
     }
   },
