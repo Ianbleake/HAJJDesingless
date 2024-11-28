@@ -10,6 +10,7 @@ import broome from '../Assets/broome.jpg'
 import curate from "../Assets/curate_your_project_short.jpg"
 import TextAndBanner from "../Components/TextAndBanner"
 import TextAndSlider from "../Components/TextAndSlider"
+import BannerTextBtn from "../Components/BannerTextBtn"
 
 const Home = () => {
 
@@ -89,6 +90,13 @@ const Home = () => {
             "url": '/proyect-detail'
           }
         ]
+      },
+      "bannertextbtn": {
+        "title": 'OUR TEAM',
+        "description": 'We specialize in designing and creating elegant, high-quality design projects.',
+        "url": '/our-team',
+        "button": 'Get to know us',
+        "image": null
       }
   }
   
@@ -100,6 +108,7 @@ const Home = () => {
       <BannerSlider Banners={data.banners} />
       <TextAndBanner element={data.textandbanner[0]} />
       <TextAndSlider data={data.textandslider} />
+      <BannerTextBtn data={data.bannertextbtn} />
       <TextAndBanner element={data.textandbanner[1]} /> 
     </section>
   )
