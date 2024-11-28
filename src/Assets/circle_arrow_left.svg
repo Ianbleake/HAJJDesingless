@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 18 Copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-18-Copy" transform="translate(34, 34) scale(-1, 1) translate(-34, -34)" stroke="#FFFFFF">
+            <circle id="Oval" cx="34" cy="34" r="33.5"></circle>
+            <g id="Group-13-Copy-2" transform="translate(33.5, 34) rotate(-180) translate(-33.5, -34)translate(16, 18)" stroke-linejoin="round" stroke-width="2">
+                <path d="M-2.40030773e-14,16.5 C23.3333333,16.5 35,16.5 35,16.5" id="Path-7"></path>
+                <polyline id="Path-8" points="17 1.58210034e-14 -2.75093796e-14 16.2612677 17 32"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
