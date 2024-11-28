@@ -14,6 +14,7 @@ import TextAndBanner from "../Components/TextAndBanner"
 import TextAndSlider from "../Components/TextAndSlider"
 import BannerTextBtn from "../Components/BannerTextBtn"
 import Banner from "../Components/Banner"
+import GridCard from "../Components/GridCard"
 
 const Home = () => {
 
@@ -116,6 +117,28 @@ const Home = () => {
             "alt": ''
           }
         ]
+      },
+      "grid": {
+        "title": 'FEATURED<br>‍<span class="bigtitle">MEDIA</span>',
+        "description": 'Discover design tendencies, events and the presence of HAJJ on the media.',
+        "button": 'Read more',
+        "url": '/feature-media',
+        "cards": [
+          {
+            "url": '/feature-media',
+            "title": 'HOTBOOK - HAJJ Designless A lasting legacy.',
+            "date": 'September / 2023',
+            "document": '"https://hajj.kubocloud.com/documents/HOTBOOK050%20HOTDesign%20Hajj%20Designless.pdf"',
+            "button": 'Read more'
+          },
+          {
+            "url": '/feature-media',
+            "title": 'Aliquam et dignissim nisi, et dapibus sapien.',
+            "date": 'July / 2024',
+            "document": '"/news"',
+            "button": 'Read more'
+          }
+        ]
       }
   }
   
@@ -129,6 +152,7 @@ const Home = () => {
       <TextAndSlider data={data.textandslider} />
       <BannerTextBtn data={data.bannertextbtn} />
       <Banner data={data.banner} />
+      <GridCard data={data.grid} />
       <TextAndBanner element={data.textandbanner[1]} /> 
     </section>
   )

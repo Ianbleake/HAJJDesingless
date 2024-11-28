@@ -1,0 +1,109 @@
+{
+  "views": {
+    "home": {
+      "banners": [
+        {
+          "url": "#",
+          "image": "hero1",
+          "alt": "Imagen 1",
+          "type": "external"
+        },
+        {
+          "url": "/careers",
+          "image": "hero2",
+          "alt": "Imagen 2",
+          "type": "internal"
+        },
+        {
+          "url": "/curate-your-proyect",
+          "image": "hero4",
+          "alt": "Imagen 3",
+          "type": "internal"
+        },
+        {
+          "url": "/our-news",
+          "image": "hero5",
+          "alt": "Imagen 4",
+          "type": "internal"
+        }
+      ],
+      "textandbanner": [
+        {
+          "size": "big",
+          "image": "hero1",
+          "url": "/our-oath",
+          "title": "OUR<br><span class='bigtitle'>PROMISE</span>",
+          "description": "With over <strong><em>40 years of experience</em></strong>, our story is a fusion of Italian elegance and global inspiration. It`s a tale of innovation, where caring for every detail and every client`s unique vision is paramount.",
+          "button": "Read more"
+        },
+        {
+          "size": "normal",
+          "image": "curate",
+          "title": "CURATE YOUR<br><span class='bigtitle'>PROJECT</span>",
+          "description": "Discover the essence of luxury with our custom design solutions.",
+          "url": "/curate-your-proyect",
+          "button": "More info"
+        }
+      ],
+      "textandslider": {
+        "title": "OUR<br/>‍<span class='bigtitle'>WORK</span>",
+        "description": "Section with featured projects to redirect de user to the projects gallery.",
+        "button": "View projects",
+        "url": "/proyect-detail",
+        "acordions": [
+          {
+            "title": "AD Apartment",
+            "image": "adApartament",
+            "alt": "AD Apartment",
+            "url": "/proyect-detail"
+          },
+          {
+            "title": "Casa Altaire",
+            "image": "altaire",
+            "alt": "Casa Altaire",
+            "url": "/proyect-detail"
+          },
+          {
+            "title": "Gamboa 1602",
+            "image": "gamboa",
+            "alt": "Gamboa 1602",
+            "url": "/proyect-detail"
+          },
+          {
+            "title": "Broome",
+            "image": "broome",
+            "alt": "Broome",
+            "url": "/proyect-detail"
+          }
+        ]
+      },
+      "bannertextbtn": {
+        "title": "OUR TEAM",
+        "description": "We specialize in designing and creating elegant, high-quality design projects.",
+        "url": "/our-team",
+        "button": "Get to know us",
+        "image": null
+      },
+      "banner": {
+        "title": "OUR SHOWROOM",
+        "description": "Find inspiration and references to build the space you want.",
+        "button": "Get to know us",
+        "url": "/our-showroom",
+        "images": [
+          {
+            "image": "mosaico",
+            "alt": ""
+          },
+          {
+            "image": "mosaico2",
+            "alt": ""
+          }
+        ]
+      },
+      "grid": {
+        "title": ""
+      }
+    }
+  },
+  "menus": []
+}
