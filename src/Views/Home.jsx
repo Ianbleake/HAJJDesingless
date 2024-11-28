@@ -3,8 +3,13 @@ import hero1 from "../Assets/hero_1.jpg"
 import hero2 from "../Assets/hero_2.jpg"
 import hero4 from "../Assets/hero_4.jpg"
 import hero5 from "../Assets/hero_5.jpg"
+import adApartament from "../Assets/ad_department.jpg"
+import altaire from '../Assets/altaire.jpg'
+import gamboa from '../Assets/work_slide_4.jpg'
+import broome from '../Assets/broome.jpg'
 import curate from "../Assets/curate_your_project_short.jpg"
 import TextAndBanner from "../Components/TextAndBanner"
+import TextAndSlider from "../Components/TextAndSlider"
 
 const Home = () => {
 
@@ -52,7 +57,39 @@ const Home = () => {
           "url": '/curate-your-proyect',
           "button": 'More info'
         },
-      ]
+      ],
+      "textandslider": {
+        "title": 'OUR<br/>‍<span class="bigtitle">WORK</span>',
+        "description": 'Section with featured projects to redirect de user to the projects gallery.',
+        "button": 'View projects',
+        "url": '/proyect-detail',
+        "acordions": [
+          {
+            "title": 'AD Apartment',
+            "image": adApartament,
+            "alt": 'AD Apartment',
+            "url": '/proyect-detail'
+          },
+          {
+            "title": 'Casa Altaire',
+            "image": altaire,
+            "alt": 'Casa Altaire',
+            "url": '/proyect-detail'
+          },
+          {
+            "title": 'Gamboa 1602',
+            "image": gamboa,
+            "alt": 'Gamboa 1602',
+            "url": '/proyect-detail'
+          },
+          {
+            "title": 'Broome',
+            "image": broome,
+            "alt": 'Broome',
+            "url": '/proyect-detail'
+          }
+        ]
+      }
   }
   
 
@@ -61,7 +98,8 @@ const Home = () => {
   return (
     <section>
       <BannerSlider Banners={data.banners} />
-      <TextAndBanner element={data.textandbanner[0]} /> 
+      <TextAndBanner element={data.textandbanner[0]} />
+      <TextAndSlider data={data.textandslider} />
       <TextAndBanner element={data.textandbanner[1]} /> 
     </section>
   )

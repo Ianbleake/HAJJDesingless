@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 
 const TextAndBanner = ({element}) => {
-  console.log(element)
   return (
     <div className={element.size == 'normal' ? 'curatesecc' : element.size == 'big' ? 'promisesecc' : '' }>
       <div className="custom-container">
