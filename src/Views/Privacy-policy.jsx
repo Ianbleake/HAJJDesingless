@@ -1,5 +1,5 @@
 
-const Privacy = () => {
+const Privacy = ({data}) => {
   return (
     <div>Privacy</div>
   )

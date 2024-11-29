@@ -1,5 +1,5 @@
 
-const Careers = () => {
+const Careers = ({data}) => {
   return (
     <div>careers</div>
   )

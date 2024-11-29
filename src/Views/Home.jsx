@@ -6,10 +6,10 @@ import Banner from "../Components/Banner"
 import GridCard from "../Components/GridCard"
 
 const Home = ({data}) => {
-
+  console.log("Home:",data.bannerslider)
   return (
     <section>
-      <BannerSlider Banners={data.banners} />
+      <BannerSlider data={data.bannerslider} />
       <TextAndBanner element={data.textandbanner[0]} />
       <TextAndSlider data={data.textandslider} />
       <BannerTextBtn data={data.bannertextbtn} />
@@ -18,7 +18,6 @@ const Home = ({data}) => {
       <TextAndBanner element={data.textandbanner[1]} /> 
     </section>
   )
-
 }
 
 export default Home

@@ -1,5 +1,5 @@
 
-const TermsAndConditions = () => {
+const TermsAndConditions = ({data}) => {
   return (
     <div>TermsAndConditions</div>
   )

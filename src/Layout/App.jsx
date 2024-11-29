@@ -36,17 +36,17 @@ function App({data}) {
       <CoreScriptExecutor />
       <Routes>
         <Route path="/" element={<Home data={data.views.home} />} />
-        <Route path="/careers" element={<Careers />} />
-        <Route path="/curate-your-proyect" element={<CurateProyect />} />
-        <Route path="/feature-media" element={<FeatureMedia />} />
-        <Route path="/our-news" element={<Ournews />} />
-        <Route path="/our-oath" element={<OurOath />} />
-        <Route path="/showroom" element={<OurShowroom />} />
-        <Route path="/team" element={<OurTeam />} />
-        <Route path="/our-work" element={<OurWork />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/proyect-detail" element={<ProyectDetail />} />
-        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/careers" element={<Careers data={data.views.careers}/>} />
+        <Route path="/curate-your-proyect" element={<CurateProyect data={data.views.curateproyect} />} />
+        <Route path="/feature-media" element={<FeatureMedia data={data.views.featuremedia} />} />
+        <Route path="/our-news" element={<Ournews data={data.views.ournews} />} />
+        <Route path="/our-oath" element={<OurOath data={data.views.ouroath} />} />
+        <Route path="/showroom" element={<OurShowroom data={data.views.ourshowroom} />} />
+        <Route path="/team" element={<OurTeam data={data.views.ourteam} />} />
+        <Route path="/our-work" element={<OurWork data={data.views.ourwork} />} />
+        <Route path="/privacy" element={<Privacy data={data.views.privacy} />} />
+        <Route path="/proyect-detail" element={<ProyectDetail data={data.views.proyectdetail} />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions data={data.views.termsandconditions} />} />
       </Routes>
       <Footer />
     </Router>

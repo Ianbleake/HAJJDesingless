@@ -1,5 +1,5 @@
 
-const OurOath = () => {
+const OurOath = ({data}) => {
   return (
     <div>OurOath</div>
   )

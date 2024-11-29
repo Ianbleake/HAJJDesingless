@@ -1,32 +1,35 @@
 {
   "views": {
     "home": {
-      "banners": [
-        {
-          "url": "#",
-          "image": "hero1",
-          "alt": "Imagen 1",
-          "type": "external"
-        },
-        {
-          "url": "/careers",
-          "image": "hero2",
-          "alt": "Imagen 2",
-          "type": "internal"
-        },
-        {
-          "url": "/curate-your-proyect",
-          "image": "hero4",
-          "alt": "Imagen 3",
-          "type": "internal"
-        },
-        {
-          "url": "/our-news",
-          "image": "hero5",
-          "alt": "Imagen 4",
-          "type": "internal"
-        }
-      ],
+      "bannerslider": {
+        "type": "slider ",
+        "banners":[
+          {
+            "url": "#",
+            "image": "hero1",
+            "alt": "Imagen 1",
+            "type": "external"
+          },
+          {
+            "url": "/careers",
+            "image": "hero2",
+            "alt": "Imagen 2",
+            "type": "internal"
+          },
+          {
+            "url": "/curate-your-proyect",
+            "image": "hero4",
+            "alt": "Imagen 3",
+            "type": "internal"
+          },
+          {
+            "url": "/our-news",
+            "image": "hero5",
+            "alt": "Imagen 4",
+            "type": "internal"
+          }
+        ]
+      },
       "textandbanner": [
         {
           "size": "big",
@@ -129,7 +132,94 @@
     "ournews": {},
     "ouroath": {},
     "ourshowroom": {},
-    "ourteam": {},
+    "ourteam": {
+      "bannerslider": {
+        "type": "static",
+        "banners":[
+          {
+            "url": "#",
+            "image": "heroteam",
+            "alt": "MEET THE VISIONARIES",
+            "type": "external"
+          }
+        ]
+      },
+      "textandimage": [
+        {
+          "position": "right",
+          "image": "founder",
+          "imageclass": "founderpic",
+          "content": [
+            {
+              "type": "title",
+              "classtyle": null,
+              "value": "OUR FOUNDER"
+            },
+            {
+              "type": "paragraph",
+              "classtyle": null,
+              "value": "Hajj Chebaro&#x27;s journey began in Lebanon, shaped by the challenges of growing up in a region marked by conflict. His path led him to Milan, where he earned a Doctorate from the Polytechnic of Milan, an experience that ignited his intellectual transformation, preparing him for his next chapter in Japan, where he spent five years taking and learning about the Japanese asthetic.<br><br>Following his time in Japan, he arrived in Mexico with a bold and visionary mission: to introduce the Mexican landscape to the artistry of Made in Italy design. He stood as a pioneer in this endeavor, being the first to unveil the concept of a brand showroom, allowing clients to intimately experience the intricacies of products as they were crafted in factories. His relentless pursuit of excellence and divine proportion was born from a deep understanding of life&#x27;s complexities and challenges.<br>"
+            },
+            {
+              "type": "image",
+              "classtyle": "founderpic mobile",
+              "image": "founder2"
+            },
+            {
+              "type": "paragraph",
+              "classtyle": null,
+              "value": "<br>This journey resulted in his emergence as a prominent figure, recognized for his ability to curate luxury with an innate understanding of the purest form of art. Hajj Chebaro built meaningful bridges between art and its appreciators. His personal journey of transformation is the cornerstone upon which his remarkable legacy stands."
+            }
+          ] 
+        },
+        {
+          "position": "left",
+          "image": "chebarro",
+          "imageclass": null,
+          "content": [
+            {
+              "type": "title",
+              "classtyle": null,
+              "value": "LOS CHEBARO"
+            },
+            {
+              "type": "paragraph",
+              "classtyle": null,
+              "value": "Together, the Chebaro family transformed Hajj I Desingless into a global design powerhouse, specializing in crafting bespoke, high-end interiors for both residential and commercial clients. Each family member contributes their unique skills and expertise to deliver exceptional design services, sharing a deep dedication to craftsmanship, quality, and meticulous attention to detail. With the heartfelt commitment to personalization that characterizes Hajj, they take immense pride in creating beautiful, functional, and timeless spaces that artfully reflect their clients&#x27; distinct personalities and lifestyles, ensuring that every client feels uniquely cared for."
+            }
+          ] 
+        },
+        {
+          "position": "right",
+          "image": "ourteam",
+          "imageclass": null,
+          "content": [
+            {
+              "type": "title",
+              "classtyle": null,
+              "value": "OUR TEAM"
+            },
+            {
+              "type": "paragraph",
+              "classtyle": null,
+              "value": "The state of being beyond or unaffected by the constraints of time, where form and function exist not bound by the trends or styles of any particular era. Where spaces effortlessly harmonize with the past, present, and future.<br><br>Designless interiors is the embodiment of a space where the artistry of each era converges to create a symphony of timeless elegance. Here, the soul of a room is not confined by trends but is an enduring masterpiece, an inspiration for generations to come."
+            }
+          ] 
+        },
+        {
+          "position": "left",
+          "image": "installationteam",
+          "imageclass": null,
+          "content": [
+            {
+              "type": "paragraph",
+              "classtyle": null,
+              "value": "At Hajj Designless, our installation team is one of the key pillars in providing our clients with exceptional service. With specialized training directly from Italian manufacturers, our technicians master every necessary step to ensure flawless installation. They are prepared to face and adapt to any challenges that may arise during the process, consistently ensuring the highest standards of quality.Passion for installation is an integral part of our team. This commitment not only guarantees that industry standards are met but also pushes us to exceed them in every project. Our team embodies dedication and pride in every detail, delivering outstanding results in every space we transform."
+            }
+          ] 
+        }
+      ]
+    },
     "ourwork": {},
     "privacy": {},
     "proyectdetail": {},

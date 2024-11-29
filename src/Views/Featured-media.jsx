@@ -1,5 +1,5 @@
 
-const FeaturedMedia = () => {
+const FeaturedMedia = ({data}) => {
   return (
     <div>featured-media</div>
   )

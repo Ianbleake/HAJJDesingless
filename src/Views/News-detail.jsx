@@ -1,5 +1,5 @@
 
-const News = () => {
+const News = ({data}) => {
   return (
     <div>news</div>
   )

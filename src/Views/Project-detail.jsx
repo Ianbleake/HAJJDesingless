@@ -1,5 +1,5 @@
 
-const ProyectDetail = () => {
+const ProyectDetail = ({data}) => {
   return (
     <div>ProyectDetail</div>
   )

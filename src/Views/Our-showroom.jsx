@@ -1,6 +1,6 @@
 
 
-const OurShowroom = () => {
+const OurShowroom = ({data}) => {
   return (
     <div>OurShowroom</div>
   )

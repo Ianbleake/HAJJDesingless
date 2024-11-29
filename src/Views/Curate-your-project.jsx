@@ -1,6 +1,6 @@
 
 
-const CurateProject = () => {
+const CurateProject = ({data}) => {
   return (
     <div>curate-your-project</div>
   )

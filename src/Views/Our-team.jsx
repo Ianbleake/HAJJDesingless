@@ -1,7 +1,13 @@
-
-const OurTeam = () => {
+import BannerSlider from '../Components/BannerSlider'
+import TextAndImage from '../Components/TextAndImage'
+const OurTeam = ({data}) => {
   return (
-    <div>OurTeam</div>
+    <section>
+      <BannerSlider data={data.bannerslider} />
+      {
+        data.textandimage.map((element, index) => {return(<TextAndImage key={index} data={element} />)})
+      }
+    </section>
   )
 }
 
