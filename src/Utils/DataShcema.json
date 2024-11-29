@@ -122,7 +122,21 @@
           }
         ]
       }
-    }
+    },
+    "careers": {},
+    "curateproyect": {},
+    "featuremedia": {},
+    "ournews": {},
+    "ouroath": {},
+    "ourshowroom": {},
+    "ourteam": {},
+    "ourwork": {},
+    "privacy": {},
+    "proyectdetail": {},
+    "termsandconditions": {}
   },
-  "menus": []
+  "menus": {
+    "header": [],
+    "footer": []
+  }
 }

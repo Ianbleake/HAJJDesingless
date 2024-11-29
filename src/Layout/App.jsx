@@ -29,13 +29,13 @@ function CoreScriptExecutor() {
   return null;
 }
 
-function App() {
+function App({data}) {
   return (
     <Router>
       <Header />
       <CoreScriptExecutor />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home data={data.views.home} />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/curate-your-proyect" element={<CurateProyect />} />
         <Route path="/feature-media" element={<FeatureMedia />} />

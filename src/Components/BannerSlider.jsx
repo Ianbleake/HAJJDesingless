@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-
 const BannerSlider = ({ Banners }) => {
+  
   return (
     <div className="herosection">
       <div data-delay="7000" data-animation="fade" className="herocarrousel w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="6" data-duration="1500" data-infinite="true">        
