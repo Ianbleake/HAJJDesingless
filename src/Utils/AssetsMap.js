@@ -15,6 +15,9 @@ import founder2 from "../Assets/hajj_chevaro.png"
 import chebarro from "../Assets/family_chebaro_heroimg.jpg"
 import ourteam from "../Assets/our_team_img_page.jpg"
 import installationteam from "../Assets/installation_team.jpg"
+import oath from "../Assets/back_oath.jpeg"
+import story from "../Assets/story_img.jpeg"
+import philosophy from '../Assets/philosophyimg.jpeg'
 
 const assetsMap = {
   hero1,
@@ -33,7 +36,10 @@ const assetsMap = {
   founder2,
   chebarro,
   ourteam,
-  installationteam
+  installationteam,
+  oath,
+  story,
+  philosophy
 };
 
 export default assetsMap;

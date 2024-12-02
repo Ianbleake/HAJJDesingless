@@ -15,7 +15,8 @@ const BannerSlider = ({ data }) => {
                     <a href={banner.url} className={`divimghero ${data.type == 'slider' ? ' w-inline-block' : ''}`} >
                       {data.type == 'static'?
                         <div className="maintitleinner">
-                          <h1 className="titlehero-inner" data-ix="appear-title-inner">{banner.alt}</h1>
+                          <h1 className="titlehero-inner" data-ix="appear-title-inner" dangerouslySetInnerHTML={{ __html: banner.title }} ></h1>
+                          {banner.subtitle != null ? <h2 className="subtitlehero-inner" data-ix="appear-title-inner" dangerouslySetInnerHTML={{ __html: banner.subtitle }} ></h2> : '' }
                         </div>
                       : ''}
                       <img src={banner.image} loading="eager" alt={banner.alt} className="imghero" />
@@ -24,7 +25,8 @@ const BannerSlider = ({ data }) => {
                     <Link to={banner.url} className={`divimghero ${data.type == 'slider' ? ' w-inline-block' : ''}`}>
                       {data.type == 'static'?
                         <div className="maintitleinner">
-                          <h1 className="titlehero-inner" data-ix="appear-title-inner">{banner.alt}</h1>
+                          <h1 className="titlehero-inner" data-ix="appear-title-inner" dangerouslySetInnerHTML={{ __html: banner.title }} ></h1>
+                          {banner.subtitle != null ? <h2 className="subtitlehero-inner" data-ix="appear-title-inner" dangerouslySetInnerHTML={{ __html: banner.subtitle }} ></h2> : '' }
                         </div>
                       : ''}
                       <img src={banner.image} loading="eager" alt={banner.alt} className="imghero" />

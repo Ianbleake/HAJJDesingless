@@ -19,7 +19,7 @@ const TextAndImage = ({data}) => {
                   {
                     data.content.map((element, index) => {
                       return(
-                        element.type == "title" ? <h2 key={index} data-effect4="" data-splitting=""  className="heading-scroll">{element.value}</h2> :
+                        element.type == "title" ? <h2 key={index} data-effect4="" data-splitting=""  className="heading-scroll" dangerouslySetInnerHTML={{ __html: element.value }} ></h2> :
                         element.type == "paragraph" ? <p key={index} className="regulartext" dangerouslySetInnerHTML={{ __html: element.value }} ></p> :
                         element.type == "image" ? <img key={index} src={element.image} alt=""  className={`imgoncell ${element.classtyle !== null ? element.classtyle : ''}`} data-ix="appear-img"/> : ''
                       )
@@ -36,7 +36,7 @@ const TextAndImage = ({data}) => {
                   {
                     data.content.map((element, index) => {
                       return(
-                        element.type == "title" ? <h2 key={index} data-effect4="" data-splitting=""  className="heading-scroll">{element.value}</h2> :
+                        element.type == "title" ? <h2 key={index} data-effect4="" data-splitting=""  className="heading-scroll" dangerouslySetInnerHTML={{ __html: element.value }} ></h2> :
                         element.type == "paragraph" ? <p key={index} className="regulartext" dangerouslySetInnerHTML={{ __html: element.value }} ></p> :
                         element.type == "image" ? <img key={index} src={element.image} alt=""  className={`imgoncell ${element.classtyle !== null ? element.classtyle : ''}`} data-ix="appear-img"/> : ''
                       )

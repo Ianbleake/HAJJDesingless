@@ -130,7 +130,75 @@
     "curateproyect": {},
     "featuremedia": {},
     "ournews": {},
-    "ouroath": {},
+    "ouroath": {
+      "bannerslider": {
+        "type": "static",
+        "banners": [
+          {
+            "url": "#",
+            "image": "oath",
+            "alt": "WHAT SETS US APART",
+            "title": "WHAT SETS US APART",
+            "subtitle": "Crafting Tailored Elegance:<br>Where Your Soul Meets Excepcional Italian Design",
+            "type": "internal"
+          }
+        ]
+      },
+      "textandimage": [
+        {
+          "position": "right",
+          "image": "story",
+          "imageclass": null,
+          "content": [
+            {
+              "type": "title",
+              "classtyle": null,
+              "value": "OUR STORY"
+            },
+            {
+              "type": "paragraph",
+              "classtyle": null,
+              "value": "Established in the heart of Milano in 1982, our journey began with architect Hajj Chebaro’s unique vision to create timeless spaces that defied time beyond generations and trends. Since then, we&#x27;ve embarked on a journey that has taken us to over 50 cities worldwide, solidifying our position as curators in the realm of luxury Italian interior design.<br><br>We take pride in pioneering luxury interior design in Mexico and curating an exclusive collection of &#x27;Made in Italy&#x27; brands. Collaborating closely with esteemed contemporary architects, we craft interior design high- end projects that grace some of the world&#x27;s most extraordinary homes and hospitality spaces.<br><br>Our dedication shines a spotlight on the artistry of craftsmen and designers alike. In our two showrooms, spanning over 2,000 square meters, we offer and are an exclusive home to renowned brands such as Minotti, Rimadesio, Henge, Poltrona Frau, Exteta, and an impressive roster of 45 others. These spaces are more than showrooms; they are living testaments of our commitment to personalized luxury living."
+            }
+          ] 
+        },
+        {
+          "position": "left",
+          "image": "hero5",
+          "imageclass": null,
+          "content": [
+            {
+              "type": "title",
+              "classtyle": null,
+              "value": "OUR VALUE PROPOSITION"
+            },
+            {
+              "type": "paragraph",
+              "classtyle": null,
+              "value": "Designing spaces that are an extension of your soul, where every detail is a reflection of individuality and creativity. Driven by our passion for design and innovation, we empower you to craft tailored interiors that inspire and uplift, bringing harmony and serenity to life."
+            }
+          ] 
+        },
+        {
+          "position": "right",
+          "image": "philosophy",
+          "imageclass": null,
+          "content": [
+            {
+              "type": "title",
+              "classtyle": null,
+              "value": "DESIGNLESS®<br><br>OUR PHILOSOPHY"
+            },
+            {
+              "type": "paragraph",
+              "classtyle": null,
+              "value": "The state of being beyond or unaffected by the constraints of time, where form and function exist not bound by the trends or styles of any particular era. Where spaces effortlessly harmonize with the past, present, and future.<br><br>Designless interiors is the embodiment of a space where the artistry of each era converges to create a symphony of timeless elegance. Here, the soul of a room is not confined by trends but is an enduring masterpiece, an inspiration for generations to come."
+            }
+          ] 
+        }
+
+      ]
+    },
     "ourshowroom": {},
     "ourteam": {
       "bannerslider": {
@@ -140,6 +208,8 @@
             "url": "#",
             "image": "heroteam",
             "alt": "MEET THE VISIONARIES",
+            "title": "MEET THE VISIONARIES",
+            "subtitle": null,
             "type": "external"
           }
         ]
